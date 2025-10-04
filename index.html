@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/text.css">
     <link rel="icon" type="image/png" href="./public/01d.png">
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
     <!-- <script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/math/ImprovedNoise.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/controls/OrbitControls.js"></script> -->
 
-    <title>Weather: A powerful 3D weather website</title>
+    <title>Weather: A powerful 3D weather website with animations</title>
 </head>
 
 <body>
@@ -19,7 +20,21 @@
         {
             "imports": {
                 "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
-                "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/"
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/",
+                "animejs": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/index.js",
+                "animejs/animation": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/animation/index.js",
+                "animejs/timer": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/timer/index.js",
+                "animejs/timeline": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/timeline/index.js",
+                "animejs/animatable": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/animatable/index.js",
+                "animejs/draggable": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/draggable/index.js",
+                "animejs/scope": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/scope/index.js",
+                "animejs/engine": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/engine/index.js",
+                "animejs/events": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/events/index.js",
+                "animejs/easings": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/easings/index.js",
+                "animejs/utils": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/utils/index.js",
+                "animejs/svg": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/svg/index.js",
+                "animejs/text": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/text/index.js",
+                "animejs/waapi": "https://cdn.jsdelivr.net/npm/animejs@latest/dist/modules/waapi/index.js"
             }
         }
     </script>
@@ -29,9 +44,10 @@
         </div>
     </div>
     <div id="text">
-        <h1 id="__title">Hello World</h1>
+        <h1 id="__title">Weather</h1>
     </div>
     <script type="module" src="src/main.js"></script>
+    <script type="module" src="src/animation.js"></script>
 </body>
 
 </html>
