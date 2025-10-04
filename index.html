@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/png" href="./public/01d.png">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/math/ImprovedNoise.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/controls/OrbitControls.js"></script> -->
+
+    <title>Weather: A powerful 3D weather website</title>
+</head>
+
+<body>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/"
+            }
+        }
+    </script>
+    <!-- 3D Weather Visualization -->
+    <div id="bg">
+        <div id="container">
+        </div>
+    </div>
+    <div id="text">
+        <h1 id="__title">Hello World</h1>
+    </div>
+    <script type="module" src="src/main.js"></script>
+</body>
+
+</html>

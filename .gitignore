@@ -1,0 +1,21 @@
+SanDisk/
+System Volume Information/
+$RECYCLE.BIN/
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore node_modules
+node_modules/
+# Ignore log files
+*.log
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+# Ignore build output directories
+dist/
+build/
+# Ignore system files
+.DS_Store
+Thumbs.db

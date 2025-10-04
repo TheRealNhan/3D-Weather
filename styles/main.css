@@ -1,0 +1,32 @@
+body { margin: 0; }
+#container {
+    width: 100%;
+    height: 300px;
+    position: static;
+    overflow: hidden;
+}
+
+#text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Allow clicks to pass through */
+    z-index: 5; /* Ensure it's above the canvas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#__title {
+    color: black;
+    font-size: 56px;
+    font-family: 'Inter', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+}
