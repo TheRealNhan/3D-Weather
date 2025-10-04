@@ -136,6 +136,7 @@ function generateTexture(data, width, height) {
 
     let context, image, imageData, shade;
 
+    controls.enableZoom = false;
     const vector3 = new THREE.Vector3(0, 0, 0);
 
     const sun = new THREE.Vector3(1, 1, 1);

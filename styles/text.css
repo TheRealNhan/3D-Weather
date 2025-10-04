@@ -17,7 +17,7 @@
 }
 
 #__title {
-    color: black;
+    color: #fff;
     font-size: 6vw; /* Responsive font size */
     font-family: 'Inter', sans-serif;
     z-index: 10;
